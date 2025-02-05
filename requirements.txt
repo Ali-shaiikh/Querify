@@ -2,3 +2,29 @@ streamlit==1.12.0
 pandas==1.5.3
 requests==2.28.1
 langchain-ollama==0.0.1
+
+
+Libraries Used
+pandas:
+Used for data manipulation and analysis, particularly for reading and processing CSV files.
+
+streamlit:
+A framework for building web applications, used to create the user interface for uploading CSV files and displaying SQL queries.
+
+requests:
+Utilized for making HTTP requests to the local LLM API, enabling interaction with the model.
+
+subprocess:
+A module that allows spawning new processes, used to run the local LLM as a subprocess for generating SQL queries.
+
+sys:
+Provides access to system-specific parameters and functions. It is used to configure input/output encoding and set locale settings for proper data handling.
+
+locale:
+Used to set the locale for the application, affecting how data is formatted and displayed, such as dates and numbers.
+
+json:
+Used for handling JSON data, particularly when sending requests to the LLM API.
+
+langchain_ollama:
+A library specifically for integrating with the Ollama model, which is employed to generate SQL queries based on user input.

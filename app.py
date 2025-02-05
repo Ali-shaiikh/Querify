@@ -74,6 +74,6 @@ if uploaded_file is not None:
         
 
 # Footer
-st.markdown("<p style='text-align: center;'>Powered by LLM Querify</p>", unsafe_allow_html=True)
+st.markdown("<p style='text-align: center;'> Querify: SQL Query Generator </p>", unsafe_allow_html=True)
 
 
